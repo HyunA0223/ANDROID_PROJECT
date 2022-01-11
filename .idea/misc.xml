@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/drawable/corner_shape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/drawable/ic_stat_name.xml" value="0.26979166666666665" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/drawable/main_button.xml" value="0.26979166666666665" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_choice_medic.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_detail.xml" value="0.264" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_detail2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_hos_detail.xml" value="0.264" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_medic.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_medic_alarm.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_medic_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_medic_memo.xml" value="0.264" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_medic_memo_detail.xml" value="0.121875" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_memo.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_my.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_pha_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/activity_pha_review_acitvity.xml" value="0.25364583333333335" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/hospital.xml" value="0.24456521739130435" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/listview_layout.xml" value="0.536" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/medic_listview_layout.xml" value="0.264" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/layout/pharmacy.xml" value="0.24456521739130435" />
+        <entry key="..\:/Work/mobile/FindHospital/app/src/main/res/xml/file_paths.xml" value="0.2509057971014493" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25364583333333335" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

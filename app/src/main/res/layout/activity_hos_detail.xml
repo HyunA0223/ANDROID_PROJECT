@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_detail">
+
+  <CheckBox
+      android:id="@+id/hosSave"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:button="@android:drawable/btn_star"
+      android:checked="false"
+      app:layout_constraintStart_toEndOf="@+id/dHosName"
+      app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@mipmap/hos" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:fontFamily="@font/audiowide"
+      android:text="SMATIC"
+      android:textColor="#009688"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toEndOf="@+id/imageView3"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/dHosName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="16dp"
+      android:text="병원 이름"
+      android:textColor="#5FC599"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+  <TextView
+      android:id="@+id/dHosAddress"
+      android:layout_width="370dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="8dp"
+      android:text="병원 주소"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/dHosName" />
+
+  <fragment
+      android:id="@+id/map"
+      android:name="com.google.android.gms.maps.MapFragment"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="8dp"
+
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/dHosAddress"
+      app:uiZoomControls="true" />
+
+  <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="32dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="운영시간"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <TextView
+          android:id="@+id/dRcvSat2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:text="토요일 :"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/dRcvSat"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:text="토요일 운영시간" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:text="주중  :"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/dRcvWeek"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:layout_weight="1"
+          android:text="주중 운영시간" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="휴진 안내"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:text="공휴일 :"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/dNoTrHol"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:layout_weight="1"
+          android:text="공휴일 휴진안내" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:text="일요일 :"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/dNoTrSun"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="16dp"
+          android:layout_weight="1"
+          android:text="일요일 휴진안내" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

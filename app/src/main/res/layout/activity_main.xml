@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/hos" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="SMATIC"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:text="Click Button To Move"
+        android:textColor="#77A56B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <Button
+            android:id="@+id/goToHos"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#BBD2C4"
+            android:onClick="onClick"
+            android:text="병원"
+            android:textColor="#3F5939"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/goToDrug"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#BBD2C4"
+            android:onClick="onClick"
+            android:text="약국"
+            android:textColor="#3F5939"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/goToMy"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:backgroundTint="#BBD2C4"
+        android:onClick="onClick"
+        android:text="마이 페이지"
+        android:textColor="#3F5939"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/findhos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

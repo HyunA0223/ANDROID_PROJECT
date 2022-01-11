@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MedicMemoActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="357dp"
+        android:layout_height="411dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMedicName">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:onClick="onClick"
+                    android:text="반복 설정" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/audiowide"
+                    android:text="약 복용 날짜를 설정해주세요"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:onClick="onClick"
+                    android:text="시간 설정" />
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/audiowide"
+                    android:text="약 복용 시간을 설정해주세요"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnInsertPicture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:onClick="onClick"
+                    android:text="사진 선택" />
+
+                <ImageView
+                    android:id="@+id/ivPhoto"
+                    android:layout_width="210dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:srcCompat="@mipmap/findhos" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etMedicMemo"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="   복용 중인 약 정보를 기록해주세요."
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="What kind of Medicine?"
+        android:textColor="#77A56B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/hos" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="SMATIC"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etMedicName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#285E2A"
+        android:ems="10"
+        android:hint="복용 중인 약 이름을 입력하세요."
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btnSaveAlarm"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:backgroundTint="#BBD2C4"
+        android:onClick="onClick"
+        android:text="저장"
+        android:textColor="#3F5939"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

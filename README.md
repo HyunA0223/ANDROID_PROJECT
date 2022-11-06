@@ -1,5 +1,17 @@
-SMATIC
-
-다음 링크를 통해 확인할 수 있습니다.
-
-https://hyuna-lee.notion.site/SMATIC-91389bd6344944cb89db9b60f25f22f6
+![1](https://user-images.githubusercontent.com/86672939/200160895-41794439-b32c-4cd8-a6f9-074c0a63418f.jpg)
+![2](https://user-images.githubusercontent.com/86672939/200160896-ea99ffac-0165-46bb-8e98-fdcd106ea520.jpg)
+![3](https://user-images.githubusercontent.com/86672939/200160897-2ef25d30-062e-496d-a166-6abe04b2476e.jpg)
+![4](https://user-images.githubusercontent.com/86672939/200160898-5bfe7ad8-e687-455f-933a-0d8375795990.jpg)
+![5](https://user-images.githubusercontent.com/86672939/200160899-fce651f5-c666-4895-9008-5467dc4b65c8.jpg)
+![6](https://user-images.githubusercontent.com/86672939/200160900-f3eef630-1b9c-4422-86c2-0ceae4bd7fe9.jpg)
+![7](https://user-images.githubusercontent.com/86672939/200160901-daeea626-7b7b-4020-87bf-efb77625ecc9.jpg)
+![8](https://user-images.githubusercontent.com/86672939/200160882-0a3a17dc-fc93-4469-b9f6-235d582ea4be.jpg)
+![9](https://user-images.githubusercontent.com/86672939/200160883-a4479550-57f6-4b6c-813a-4c5adce28421.jpg)
+![10](https://user-images.githubusercontent.com/86672939/200160884-48cc6864-2e3a-43b9-acff-a9b3d07ad071.jpg)
+![11](https://user-images.githubusercontent.com/86672939/200160885-6c96bee5-4563-40a5-a8e4-14431e049ac6.jpg)
+![12](https://user-images.githubusercontent.com/86672939/200160887-8ad7629b-810d-4def-9350-fa7c20bbf7d1.jpg)
+![13](https://user-images.githubusercontent.com/86672939/200160889-27dd4110-2243-4d8a-95b8-30edcf8bee2f.jpg)
+![14](https://user-images.githubusercontent.com/86672939/200160890-e68cd9fc-9604-4f4b-b4d0-021cfbc4b28d.jpg)
+![15](https://user-images.githubusercontent.com/86672939/200160892-a26b3129-9699-402e-8671-9d644a75a4a9.jpg)
+![16](https://user-images.githubusercontent.com/86672939/200160893-e838ab15-9807-4f2d-9e4b-1115dce384e2.jpg)
+![17](https://user-images.githubusercontent.com/86672939/200160894-b4325869-9ef8-4aa3-bc5b-117712d29988.jpg)
